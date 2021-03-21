@@ -14,7 +14,7 @@ Car rental API
 $ git clone https://github.com/jhonnydelima/rentalx
 ```
 
-### 2.Running the application on your terminal
+### 2. Running the application on your terminal
 ```
 #install the dependencies
 $ yarn
@@ -24,5 +24,11 @@ $ yarn dev
 ```
 
 ---
+### Swagger Documentation
+
+- Check the swagger documentation in: http://localhost:3333/api-docs
+
+---
+
 ### 📄 License
 This project is under MIT license. See the [LICENSE](https://github.com/jhonnydelima/rentalx/blob/main/LICENSE) file for more details.

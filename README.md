@@ -22,7 +22,7 @@ Car rental API
 - Deve ser possível listar todos os carros disponíveis pelo nome do carro.
 
 **RN**
-- [ ] O usuário não precisa estar logado no sistema.
+- [x] O usuário não precisa estar logado no sistema.
 
 ### Cadastro de especificação de carro
 **RF**

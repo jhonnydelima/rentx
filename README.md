@@ -1,4 +1,4 @@
-# RentalX  (Still in progress...)
+# RentalX  (still in progress...)
 
 Car rental API
 
@@ -27,13 +27,11 @@ Car rental API
 ### Cadastro de especificação de carro
 **RF**
 - Deve ser possível cadastrar uma especificação para um carro.
-- Deve ser possível listar todas as especificações.
-- Deve ser possível listar todos os carros.
 
 **RN**
-- [ ] Não deve ser possível cadastrar uma especificação para um carro não cadastrado.
-- [ ] Não deve ser possível cadastrar uma especificação já existente para o mesmo carro.
-- [ ] O usuário responsável pelo cadastro deve ser um usuário administrador.
+- [x] Não deve ser possível cadastrar uma especificação para um carro não cadastrado.
+- [x] Não deve ser possível cadastrar uma especificação já existente para o mesmo carro.
+- [x] O usuário responsável pelo cadastro deve ser um usuário administrador.
 
 ### Cadastro de imagens do carro
 **RF**

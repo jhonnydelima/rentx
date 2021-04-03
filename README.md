@@ -36,14 +36,13 @@ Car rental API
 ### Cadastro de imagens do carro
 **RF**
 - Deve ser possível cadastrar a imagem do carro.
-- Deve ser possível listar todos os carros.
 
 **RNF**
 - Utilizar o multer para upload dos arquivos.
 
 **RN**
-- [ ] O usuário deve poder cadastrar mais de uma imagem para o mesmo carro.
-- [ ] O usuário responsável pelo cadastro deve ser um usuário administrador.
+- [x] O usuário pode cadastrar mais de uma imagem para o mesmo carro.
+- [x] O usuário responsável pelo cadastro deve ser um usuário administrador.
 
 ### Aluguel de carro
 **RF**

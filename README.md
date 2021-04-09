@@ -69,6 +69,14 @@ Deve ser possível realizar a devolução de um carro.
 - [x] Caso haja multa, deverá ser somado ao total do aluguel.
 - [x] O usuário deve estar logado na aplicação.
 
+### Listagem de alugueis para usuário
+
+**RF**
+Deve ser possível realizar a busca de todos os alugueis para o usuário.
+
+**RN**
+- [x] O usuário deve estar logado na aplicação.
+
 ---
 ### Main technologies:
 - Node.js (https://nodejs.org/en/)

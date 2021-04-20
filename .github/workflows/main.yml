@@ -1,0 +1,37 @@
+name: CI
+
+# Controls when the action will run.
+on:
+  # Triggers the workflow on push events but only for the main branch
+  push:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Setup Nodejs
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14.x
+          
+      - name: Install dependencies
+        run: yarn
+        
+      - name: Build
+        run: yarn build
+        
+      - uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          port: ${{ secrets.SSH_PORT }}
+          key: ${{ secrets.SSH_KEY }}
+          source: "., !node_modules"
+          target: "test"

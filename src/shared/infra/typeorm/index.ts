@@ -3,7 +3,8 @@ import { Connection, createConnection, getConnectionOptions } from "typeorm";
 // createConnection();
 
 /* (host = database_ignite) -> service's name in docker-compose file */
-export default async (host = "localhost"): Promise<Connection> => {
+// (host = "localhost") -> works
+export default async (host = "database_ignite"): Promise<Connection> => {
   const defaultOptions = await getConnectionOptions();
 
   return createConnection(

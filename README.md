@@ -1,6 +1,6 @@
 # RentalX  (still in progress...)
 
-Car rental API
+Car rental API developed during Ignite bootcamp from Rocketseat.
 
 ---
 ## Requirements
@@ -99,6 +99,12 @@ Car rental API
 - Docker (https://docs.docker.com/)
 - TypeORM (https://typeorm.io/#/)
 - PostgreSQL (https://www.postgresql.org/)
+- Babel (https://babeljs.io/)
+- Nodemailer (https://nodemailer.com/about/)
+- Jest (https://jestjs.io/)
+- SuperTest (https://www.npmjs.com/package/supertest)
+- Swagger (https://swagger.io/)
+- Amazon AWS (https://aws.amazon.com/)
 
 ---
 ### How to run this project:

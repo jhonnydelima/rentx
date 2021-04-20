@@ -1,4 +1,4 @@
-# RentalX  (still in progress...)
+<img src="https://i.imgur.com/oUAKMC5.png"/>
 
 Car rental API developed during Ignite bootcamp from Rocketseat.
 
@@ -111,7 +111,7 @@ Car rental API developed during Ignite bootcamp from Rocketseat.
 
 ### 1. Clone this repository
 ```
-$ git clone https://github.com/jhonnydelima/rentalx
+$ git clone https://github.com/jhonnydelima/rentx
 ```
 
 ### 2. Running the application on your terminal
@@ -130,4 +130,4 @@ $ yarn dev
 
 ---
 ### 📄 License
-This project is under MIT license. See the [LICENSE](https://github.com/jhonnydelima/rentalx/blob/main/LICENSE) file for more details.
+This project is under MIT license. See the [LICENSE](https://github.com/jhonnydelima/rentx/blob/main/LICENSE) file for more details.

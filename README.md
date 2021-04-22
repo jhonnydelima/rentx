@@ -1,6 +1,9 @@
-<img src="https://i.imgur.com/oUAKMC5.png"/>
-
-Car rental API developed during Ignite bootcamp from Rocketseat.
+<h2 align="center">
+  <img src="https://i.imgur.com/oUAKMC5.png"/>
+  <br/>
+  <br/>
+  Car rental API developed during Ignite bootcamp from Rocketseat.
+</h2>
 
 ---
 ## Requirements
